@@ -1,0 +1,20 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE/editor stuff
+.vscode/
+.DS_Store
+
+#cloud
+backend/config/service-account-file.json
