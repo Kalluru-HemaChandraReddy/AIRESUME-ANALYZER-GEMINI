@@ -28,3 +28,21 @@ This project is a **Resume Analyzer Web App** that extracts text from resumes (P
 ---
 
 ## 📂 Project Structure
+resume-analyzer/
+│
+├── backend/                # Express backend
+├── frontend/               # React frontend
+│
+├── sample_data/            # Test resumes
+│   ├── resume1.pdf
+│   ├── resume2.pdf
+│
+├── screenshots/            # UI screenshots
+│   ├── upload_page.png
+│   ├── results_page.png
+│   ├── history_table.png
+│   └── details_modal.png
+│
+├── README.md               # Documentation
+└── package.json
+

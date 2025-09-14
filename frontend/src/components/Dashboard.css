@@ -1,0 +1,18 @@
+.dashboard {
+  padding: 20px;
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resume-table th, .resume-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.resume-table th {
+  background-color: #f4f4f4;
+}

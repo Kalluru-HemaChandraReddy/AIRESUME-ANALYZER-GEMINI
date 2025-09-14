@@ -1,12 +1,33 @@
-# React + Vite
+# 📑 Resume Analyzer (AI-Powered ATS Score Checker)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **AI-powered Resume Analyzer** that extracts text from resumes, analyzes them with Google Vertex AI (Gemini), and provides a professional **ATS score, key strengths, and upskilling recommendations**.  
 
-Currently, two official plugins are available:
+The app has:
+- A **React + Tailwind frontend** for uploading resumes and displaying results
+- A **Node.js + Express backend** for handling file uploads and AI calls
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- ✅ Upload PDF resumes  
+- ✅ Extract resume text  
+- ✅ AI-powered resume analysis using Gemini  
+- ✅ ATS-style rating (e.g., 7/10)  
+- ✅ Key strengths & areas to upskill  
+- ✅ Clean UI with Tailwind styling  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS, Axios  
+- **Backend:** Node.js, Express.js, Multer  
+- **AI Model:** Google Vertex AI (Gemini)  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/<your-username>/resume-analyzer.git
+cd resume-analyzer

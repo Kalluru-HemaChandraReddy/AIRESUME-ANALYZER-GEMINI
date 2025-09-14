@@ -1,20 +1,42 @@
-# Node.js dependencies
+# Node.js
 node_modules/
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Environment variables
-.env
-backend/.env
-frontend/.env
-
-# Build outputs
+# Build
 dist/
 build/
+
+# Logs
+logs
 *.log
+*.out
+*.err
 
-# IDE/editor stuff
-.vscode/
-.DS_Store
+# Environment files
+.env
+.env.local
+.env.*.local
 
-#cloud
+# Backend uploads and config
+backend/uploads/
 backend/config/service-account-file.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
